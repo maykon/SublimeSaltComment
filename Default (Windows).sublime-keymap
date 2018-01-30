@@ -1,4 +1,5 @@
 [
 	{ "keys": ["ctrl+shift+alt+s"], "command": "salt_comment"},
-  { "keys": ["ctrl+shift+alt+d"], "command": "salt_help_insight_comment"}
+  { "keys": ["ctrl+shift+alt+d"], "command": "salt_help_insight_comment"},
+  { "keys": ["ctrl+shift+alt+u"], "command": "salt_unit_comment"}
 ]

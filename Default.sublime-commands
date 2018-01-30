@@ -6,5 +6,9 @@
     {
         "caption": "Insert method/property SALT Comment",
         "command": "salt_help_insight_comment"
+    },
+    {
+        "caption": "Insert unit SALT Comment",
+        "command": "salt_unit_comment"
     }
 ]
