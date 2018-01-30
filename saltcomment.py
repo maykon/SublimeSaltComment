@@ -11,7 +11,7 @@ class SaltCommentCommand(sublime_plugin.TextCommand):
 
     s = sublime.load_settings("SublimeSaltComment.sublime-settings")
     user_name = s.get("user_name", username)
-    if user_name is None:
+    if user_name is None or user_name = '':
       user_name = os.environ.get("USERNAME")
 
     last_user_name = s.get("last_user_name", user_name)
@@ -61,7 +61,7 @@ class SaltHelpInsightCommentCommand(sublime_plugin.TextCommand):
 
     s = sublime.load_settings("SublimeSaltComment.sublime-settings")
     user_name = s.get("user_name", username)
-    if user_name == '':
+    if user_name is None or user_name = '':
       user_name = os.environ.get("USERNAME")
 
     last_user_name = s.get("last_user_name", user_name)
