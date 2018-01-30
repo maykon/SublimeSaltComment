@@ -23,10 +23,15 @@ This plugin has a three settings. If you create a file called `SublimeTnsNames.s
 
 ``` JSON
 {
-   "user_name": "Maykon.db1",
-   "auto_comment": true,
-   "last_saltnumber": "253823/1",
-   "last_rtcnumber": "12345"
+  "user_name": "Maykon.db1",
+  "auto_comment": true,
+  "last_saltnumber": "253823/1",
+  "last_rtcnumber": "12345",
+  "last_comment": "Classe base para a correção de classe",
+	"last_module": "Classes SG5/Componentes",
+	"last_rtcnumber": "123456",
+	"last_saltnumber": "123456",
+	"last_system": "SG5"
 }
 ```
 
@@ -69,3 +74,16 @@ procedure MontarSelectProcessamentoDocumentos(const psTipoParte: string);
 property CodigoProcesso: Integer read FnCdProcesso write SetCdProcesso;
 ```
 
+4. Unit salt comment
+
+```
+unit ufsgCorrecaoClasseBase;
+
+{*****************************************************************************
+ Projeto/Sistema: SG5 / Classes SG5/Componentes
+ Objetivo: Classe base para a correção de classe
+ Criação: 30/01/2018 - Maykon.db1
+ SALT: 253823/1
+ RTC: 12345
+ *****************************************************************************}
+```
