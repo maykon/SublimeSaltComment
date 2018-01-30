@@ -11,7 +11,7 @@ class SaltCommentCommand(sublime_plugin.TextCommand):
 
     s = sublime.load_settings("SublimeSaltComment.sublime-settings")
     user_name = s.get("user_name", username)
-    if user_name == '':
+    if user_name is None:
       user_name = os.environ.get("USERNAME")
 
     last_user_name = s.get("last_user_name", user_name)
@@ -116,9 +116,7 @@ class SaltHelpInsightCommentCommand(sublime_plugin.TextCommand):
 
     for r in self.view.sel():
       if use_auto_comment:
-        print(text)
         text = auto_comment.run(text, r)
-        print(text)
       if r.empty():
         self.view.insert(edit, r.a, text)
       else:
