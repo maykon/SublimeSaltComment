@@ -11,9 +11,11 @@ Sublime Text 3: Salt comment in Delphi files
 
 To install this plugin, you have two options:
 
-1. If you have Package Control installed, simply search for `SublimeSaltComment` to install.
+1. If you have Package Control installed, hit `Ctrl+Shift+P` and select `Package Control: Add Repository` and add de url `https://github.com/maykon/SublimeSaltComment`.
 
-2. Clone source code to Sublime Text packages folder.
+2. Simply search for `SublimeSaltComment` to install.
+
+3. Clone source code to Sublime Text packages folder.
 
 ## Settings
 
