@@ -9,7 +9,7 @@ from SublimeSaltComment.SaltAutoComment import SaltAutoComment
 class SaltCommentCommand(sublime_plugin.TextCommand):
   def run(self, edit, saltnumber=None, username=None, rtcnumber=None):
 
-    s = sublime.load_settings("saltcomment.sublime-settings")
+    s = sublime.load_settings("SublimeSaltComment.sublime-settings")
     user_name = s.get("user_name", username)
     if user_name == '':
       user_name = os.environ.get("USERNAME")
@@ -48,7 +48,7 @@ class SaltCommentCommand(sublime_plugin.TextCommand):
     s.set("last_saltnumber", saltnumber)
     s.set("user_name", user_name)
     s.set("last_rtcnumber", rtcnumber)
-    sublime.save_settings("salt comment.sublime-settings")
+    sublime.save_settings("SublimeSaltComment.sublime-settings")
 
     for r in self.view.sel():
       if r.empty():
@@ -59,7 +59,7 @@ class SaltCommentCommand(sublime_plugin.TextCommand):
 class SaltHelpInsightCommentCommand(sublime_plugin.TextCommand):
   def run(self, edit, saltnumber=None, username=None, rtcnumber=None):
 
-    s = sublime.load_settings("saltcomment.sublime-settings")
+    s = sublime.load_settings("SublimeSaltComment.sublime-settings")
     user_name = s.get("user_name", username)
     if user_name == '':
       user_name = os.environ.get("USERNAME")
@@ -108,7 +108,7 @@ class SaltHelpInsightCommentCommand(sublime_plugin.TextCommand):
     s.set("user_name", user_name)
     s.set("auto_comment", use_auto_comment)
     s.set("last_rtcnumber", rtcnumber)
-    sublime.save_settings("salt comment.sublime-settings")
+    sublime.save_settings("SublimeSaltComment.sublime-settings")
 
     print(use_auto_comment)
     if use_auto_comment:
