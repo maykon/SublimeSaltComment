@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Insert SALT Comment",
+        "command": "salt_comment"
+    },
+    {
+        "caption": "Insert method/property SALT Comment",
+        "command": "salt_help_insight_comment"
+    }
+]
