@@ -5,7 +5,8 @@ Sublime Text 3: Salt comment in Delphi files
 
  - Simply hit `Ctrl+Shift+Alt+S` (on Windows and Linux) or `⌘+Shift+Alt+S` (on OS X) to create a simple salt comment in Delphi files
  - Simply hit `Ctrl+Shift+Alt+D` (on Windows and Linux) or `⌘+Shift+Alt+D` (on OS X) to create a method/property salt comment in Delphi files
- - Or you can open it via `Command Palette`, hit `Ctrl+Shift+P` and choose `Insert SALT Comment` or `Insert method/property SALT Comment`
+ - Simply hit `Ctrl+Shift+Alt+U` (on Windows and Linux) or `⌘+Shift+Alt+U` (on OS X) to create a unit salt comment in Delphi files
+ - Or you can open it via `Command Palette`, hit `Ctrl+Shift+P` and choose `Insert SALT Comment` or `Insert method/property SALT Comment` or `Insert unit SALT Comment`
 
 ## Installation
 
