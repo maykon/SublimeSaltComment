@@ -1,1 +1,10 @@
-{"version": "2018.01.30.11.55.00", "platforms": ["*"], "url": "https://github.com/maykon/SublimeSaltComment", "dependencies": [], "sublime_text": "*", "description": "Sublime Text 3: Salt comment in Delphi files"}
+{
+    "version": "2019.06.10.02.55.00",
+    "platforms": [
+        "*"
+    ],
+    "url": "https://github.com/maykon/SublimeSaltComment",
+    "dependencies": [],
+    "sublime_text": "*",
+    "description": "Sublime Text 3: Salt comment in Delphi files"
+}
