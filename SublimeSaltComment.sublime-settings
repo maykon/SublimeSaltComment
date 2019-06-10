@@ -1,3 +1,4 @@
 {
-  "auto_comment": true
+  "auto_comment": true,
+  "use_salt": false,
 }
