@@ -28,13 +28,11 @@ This plugin has a three settings. If you create a file called `SublimeTnsNames.s
   "user_name": "Maykon.db1",
   "auto_comment": true,
   "use_salt": false,
+  "last_system": "SG5",
+  "last_module": "Classes SG5/Componentes",
   "last_saltnumber": "253823/1",
   "last_rtcnumber": "12345",
-  "last_comment": "Classe base para a correção de classe",
-	"last_module": "Classes SG5/Componentes",
-	"last_rtcnumber": "123456",
-	"last_saltnumber": "123456",
-	"last_system": "SG5"
+  "last_comment": "Classe base para a correção de classe"  
 }
 ```
 
